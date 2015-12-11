@@ -6,13 +6,13 @@
       <styles xmi:type="notation:TitleStyle" xmi:id="__4yH8qA8EeWjwsDa4MFhtA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4yH86A8EeWjwsDa4MFhtA"/>
     </children>
-    <element xmi:type="uml:Package" href="model.uml#__4wSwKA8EeWjwsDa4MFhtA"/>
+    <element xmi:type="uml:Package" href="Modelo1.uml#__4wSwKA8EeWjwsDa4MFhtA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4xg4aA8EeWjwsDa4MFhtA" x="397" y="122" width="177" height="34"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_y_7mMaA8EeWjwsDa4MFhtA"/>
   <styles xmi:type="style:PapyrusViewStyle" xmi:id="_y_7mMqA8EeWjwsDa4MFhtA">
-    <owner xmi:type="uml:Model" href="model.uml#_y9tYoKA8EeWjwsDa4MFhtA"/>
+    <owner xmi:type="uml:Model" href="Modelo1.uml#_y9tYoKA8EeWjwsDa4MFhtA"/>
   </styles>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_zA0XAKA8EeWjwsDa4MFhtA" name="diagram_compatibility_version" stringValue="1.1.0"/>
-  <element xmi:type="uml:Model" href="model.uml#_y9tYoKA8EeWjwsDa4MFhtA"/>
+  <element xmi:type="uml:Model" href="Modelo1.uml#_y9tYoKA8EeWjwsDa4MFhtA"/>
 </notation:Diagram>
