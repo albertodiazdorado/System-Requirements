@@ -181,10 +181,10 @@ c) Performance requirements for the operational phases and modes. This means tha
     </profileApplication>
   </uml:Model>
   <ModelElements:Rationale xmi:id="_XMzhQKCvEeW83YomzJF75w" base_Comment="_XMTK8KCvEeW83YomzJF75w"/>
-  <Requirements:Requirement xmi:id="_b_7ckKCwEeW83YomzJF75w" text="The user shall be happy with the service provided, which will be evaluated with a global puntuation from 0 to 10, being 10 the best mark.&#xD;&#xA;Traced to: Requirements U1.2 &quot;Ease of Use&quot; and U1.3 &quot;Usefulness&quot; under User Requirements->Students Requirements" id="UR1.1" base_Class="_b_ZREKCwEeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_b_7ckKCwEeW83YomzJF75w" text="The user shall be happy with the service provided, which will be evaluated with a global puntuation from 0 to 10, being 10 the best mark.&#xD;&#xA;Traced to: Requirements U1.2 &quot;Ease of Use&quot; and U1.3 &quot;Usefulness&quot; under User Requirements->Students Requirements" id="UR1" base_Class="_b_ZREKCwEeW83YomzJF75w"/>
   <ModelElements:Rationale xmi:id="_dnB9QKCwEeW83YomzJF75w" base_Comment="_dm1wAKCwEeW83YomzJF75w"/>
-  <Requirements:Requirement xmi:id="_fB4VMKCxEeW83YomzJF75w" text="Test to evaluate the satisfaction of the users shall be developed and handed out to users after providing the guidance service" id="UR1.1.1" base_Class="_fB3HEKCxEeW83YomzJF75w"/>
-  <Requirements:Requirement xmi:id="_uIFfUKCxEeW83YomzJF75w" text="An average punctuation above 5/10 points in the satisfaction tests shall be obtained to state that the system appropriately meets the needs of the users." id="UR1.1.2" base_Class="_uIERMKCxEeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_fB4VMKCxEeW83YomzJF75w" text="Test to evaluate the satisfaction of the users shall be developed and handed out to users after providing the guidance service" id="UR1.1" base_Class="_fB3HEKCxEeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_uIFfUKCxEeW83YomzJF75w" text="An average punctuation above 5/10 points in the satisfaction tests shall be obtained to state that the system appropriately meets the needs of the users." id="UR1.2" base_Class="_uIERMKCxEeW83YomzJF75w"/>
   <Requirements:DeriveReqt xmi:id="_-QJIAKCxEeW83YomzJF75w" base_Abstraction="_-PiEAKCxEeW83YomzJF75w"/>
   <Requirements:DeriveReqt xmi:id="_BI7TAKCyEeW83YomzJF75w" base_Abstraction="_BIJ28KCyEeW83YomzJF75w"/>
   <Requirements:Satisfy xmi:id="_Dp1JgKCyEeW83YomzJF75w" base_Abstraction="_DpCfUKCyEeW83YomzJF75w"/>
