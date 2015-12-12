@@ -43,8 +43,12 @@ e) Accessibility to components within systems and to parts within components. In
         <packagedElement xmi:type="uml:Package" xmi:id="_DQ7E0KCzEeW83YomzJF75w" name="5. System Operations">
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_DQ7E0aCzEeW83YomzJF75w" name="" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_qBvqgKD9EeWUjvDgZR18fQ" name="" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_o-GcMKD9EeWUjvDgZR18fQ"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_-zV34KECEeWUjvDgZR18fQ" name="DeriveReqt1" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_-GTywKECEeWUjvDgZR18fQ"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_o-GcMKD9EeWUjvDgZR18fQ" name="Requirement1"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_o-GcMKD9EeWUjvDgZR18fQ" name="Maintainability">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_7OM9MKECEeWUjvDgZR18fQ" name="Requirement1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-GTywKECEeWUjvDgZR18fQ" name="Reliability"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_yIlnsKCuEeW83YomzJF75w" name="4. System Interfaces">
         <ownedComment xmi:type="uml:Comment" xmi:id="_jmONoKCyEeW83YomzJF75w">
@@ -227,6 +231,9 @@ c) Performance requirements for the operational phases and modes. This means tha
   <ModelElements:Rationale xmi:id="_l_CCoKCzEeW83YomzJF75w" base_Comment="_l-4RoKCzEeW83YomzJF75w"/>
   <Requirements:DeriveReqt xmi:id="_wxwBgKC3EeW83YomzJF75w" base_Abstraction="_wxuMUaC3EeW83YomzJF75w"/>
   <ModelElements:Rationale xmi:id="_2U9ycKC3EeW83YomzJF75w" base_Comment="_2U0BcKC3EeW83YomzJF75w"/>
-  <Requirements:Requirement xmi:id="_o_b48KD9EeWUjvDgZR18fQ" base_Class="_o-GcMKD9EeWUjvDgZR18fQ"/>
+  <Requirements:Requirement xmi:id="_o_b48KD9EeWUjvDgZR18fQ" text="The system shal be conserved in order to ensure its disign especifications, and it should be as simple as posible.&#xD;&#xA;" id="SO1" base_Class="_o-GcMKD9EeWUjvDgZR18fQ"/>
   <Requirements:DeriveReqt xmi:id="_qCq3kKD9EeWUjvDgZR18fQ" base_Abstraction="_qBvqgKD9EeWUjvDgZR18fQ"/>
+  <Requirements:Requirement xmi:id="_7O3rkKECEeWUjvDgZR18fQ" base_Class="_7OM9MKECEeWUjvDgZR18fQ"/>
+  <Requirements:Requirement xmi:id="_-G8E4KECEeWUjvDgZR18fQ" text="The system must adapt to all possible  differents enviroments and meet the imposed safety requiarements." id="SO2" base_Class="_-GTywKECEeWUjvDgZR18fQ"/>
+  <Requirements:DeriveReqt xmi:id="_-0MMcKECEeWUjvDgZR18fQ" base_Abstraction="_-zV34KECEeWUjvDgZR18fQ"/>
 </xmi:XMI>
