@@ -965,4 +965,38 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2U-Zj6C3EeW83YomzJF75w"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_dobasaDMEeWq6OoBtUJ80g" type="PapyrusUMLStateMachineDiagram" name="State Chart" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_dobasqDMEeWq6OoBtUJ80g" type="2000">
+      <children xmi:type="notation:DecorationNode" xmi:id="_dobas6DMEeWq6OoBtUJ80g" type="2001">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dobatKDMEeWq6OoBtUJ80g" width="700" height="19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dobataDMEeWq6OoBtUJ80g" type="2002">
+        <children xmi:type="notation:Shape" xmi:id="_dobatqDMEeWq6OoBtUJ80g" type="3000">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dobat6DMEeWq6OoBtUJ80g" source="RegionAnnotationKey">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dobauKDMEeWq6OoBtUJ80g" key="RegionZoneKey" value=""/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_dobauaDMEeWq6OoBtUJ80g" type="3002">
+            <children xmi:type="notation:Shape" xmi:id="_fu27sKDMEeWq6OoBtUJ80g" type="666">
+              <children xmi:type="notation:DecorationNode" xmi:id="_fu27s6DMEeWq6OoBtUJ80g" type="6666"/>
+              <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_fu27saDMEeWq6OoBtUJ80g"/>
+              <element xmi:type="uml:Comment" href="System%20Requirements.uml#_futKsKDMEeWq6OoBtUJ80g"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fu27sqDMEeWq6OoBtUJ80g" x="263" y="55" width="409" height="105"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dobauqDMEeWq6OoBtUJ80g"/>
+          </children>
+          <element xmi:type="uml:Region" href="System%20Requirements.uml#_dobasKDMEeWq6OoBtUJ80g"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dobau6DMEeWq6OoBtUJ80g" width="700" height="287"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dobavKDMEeWq6OoBtUJ80g" y="19" width="700" height="287"/>
+      </children>
+      <element xmi:type="uml:StateMachine" href="System%20Requirements.uml#_c579AKDMEeWq6OoBtUJ80g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dobavaDMEeWq6OoBtUJ80g" x="30" y="30" width="700" height="306"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_dobavqDMEeWq6OoBtUJ80g" name="diagram_compatibility_version" stringValue="1.1.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_dobav6DMEeWq6OoBtUJ80g"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_dobawKDMEeWq6OoBtUJ80g">
+      <owner xmi:type="uml:Package" href="System%20Requirements.uml#_99DUQKCuEeW83YomzJF75w"/>
+    </styles>
+    <element xmi:type="uml:StateMachine" href="System%20Requirements.uml#_c579AKDMEeWq6OoBtUJ80g"/>
+  </notation:Diagram>
 </xmi:XMI>
