@@ -58,7 +58,20 @@ Identification: SI&#xD;
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_jmNmkaCyEeW83YomzJF75w" name="" client="_jmNmkKCyEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_99DUQKCuEeW83YomzJF75w" name="6. System Modes and State"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_99DUQKCuEeW83YomzJF75w" name="6. System Modes and State">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_c579AKDMEeWq6OoBtUJ80g" name="StateMachine1">
+          <region xmi:type="uml:Region" xmi:id="_dobasKDMEeWq6OoBtUJ80g" name="Region1">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_futKsKDMEeWq6OoBtUJ80g">
+              <body>Suerte con esto, cabesa. No tengo ni puta idea de como se usa esto.&#xD;
+&#xD;
+Los estados de funcionamiento en realidad sí que son un requisito, pero habría que expresarlo como máquina de estados.&#xD;
+&#xD;
+Si queréis, me hacéis la máquina de estados en LabView, en ppt o en alguna otra mierda... pero en Navidades me tenéis que hacer la StateChart aquí&#xD;
+</body>
+            </ownedComment>
+          </region>
+        </packagedElement>
+      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_CzmMcKCvEeW83YomzJF75w" name="8. Environmental Conditions">
         <ownedComment xmi:type="uml:Comment" xmi:id="_hgA5oKCzEeW83YomzJF75w">
           <body>ENVIRONMENTAL CONDITIONS&#xD;
