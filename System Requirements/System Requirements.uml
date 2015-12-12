@@ -40,6 +40,20 @@ e) Accessibility to components within systems and to parts within components. In
 8.2.	Reliability: Specify the system reliability requirements in quantitative terms, including the conditions under which the reliability requirements are to be met. These reliability requirements also depend on the mode the system is working and the safety requirements established. In order to define the reliability of the system, every possible scenario must be analyzed. To clarify this requirements it would be helpful to list this different scenarios linked with their reliability requirements. &#xD;
 </body>
         </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1zKl8KEEEeWUjvDgZR18fQ">
+          <body>Maintainability&#xD;
+Verision Dic15-12, developed and written down by Dani&#xD;
+Identification: -----&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_G2XBMKEFEeWUjvDgZR18fQ"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_KObJMKEFEeWUjvDgZR18fQ"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_L4YJkKEFEeWUjvDgZR18fQ">
+          <body>Reliability&#xD;
+Verision Dic15-12, developed and written down by Dani&#xD;
+Identification: ----&#xD;
+</body>
+        </ownedComment>
         <packagedElement xmi:type="uml:Package" xmi:id="_DQ7E0KCzEeW83YomzJF75w" name="5. System Operations">
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_DQ7E0aCzEeW83YomzJF75w" name="" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_qBvqgKD9EeWUjvDgZR18fQ" name="" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_o-GcMKD9EeWUjvDgZR18fQ"/>
@@ -236,4 +250,6 @@ c) Performance requirements for the operational phases and modes. This means tha
   <Requirements:Requirement xmi:id="_7O3rkKECEeWUjvDgZR18fQ" base_Class="_7OM9MKECEeWUjvDgZR18fQ"/>
   <Requirements:Requirement xmi:id="_-G8E4KECEeWUjvDgZR18fQ" text="The system must adapt to all possible  differents enviroments and meet the imposed safety requiarements." id="SO2" base_Class="_-GTywKECEeWUjvDgZR18fQ"/>
   <Requirements:DeriveReqt xmi:id="_-0MMcKECEeWUjvDgZR18fQ" base_Abstraction="_-zV34KECEeWUjvDgZR18fQ"/>
+  <ModelElements:Rationale xmi:id="_G207QKEFEeWUjvDgZR18fQ" base_Comment="_G2XBMKEFEeWUjvDgZR18fQ"/>
+  <ModelElements:Rationale xmi:id="_KO0KwKEFEeWUjvDgZR18fQ" base_Comment="_KObJMKEFEeWUjvDgZR18fQ"/>
 </xmi:XMI>
