@@ -107,17 +107,29 @@ Identification: SS</body>
         </ownedComment>
         <ownedComment xmi:type="uml:Comment" xmi:id="_MslY4KCxEeW83YomzJF75w">
           <body>USABILITY REQUIREMENTS&#xD;
-Verision Dic15-xx, developed and written down by yyyy&#xD;
+Verision Dic15-12, developed and written down by Jorge Salvador&#xD;
 </body>
         </ownedComment>
         <packagedElement xmi:type="uml:Package" xmi:id="_EmOLMKCwEeW83YomzJF75w" name="2. Usability Requirements Specification">
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_-PiEAKCxEeW83YomzJF75w" name="" client="_EmOLMKCwEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_gzgdgKD2EeWAlK9P2ItRIg" name="" client="_EmOLMKCwEeW83YomzJF75w" supplier="_1bTdYKD1EeWAlK9P2ItRIg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_XH1M8KD3EeWAlK9P2ItRIg" name="" client="_txWhsKCuEeW83YomzJF75w" supplier="_2BHqwKD2EeWAlK9P2ItRIg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_6GfvQKD3EeWAlK9P2ItRIg" name="" client="_EmOLMKCwEeW83YomzJF75w" supplier="_ed9F8KD3EeWAlK9P2ItRIg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_9tuCsKD5EeWAlK9P2ItRIg" name="" client="_EmOLMKCwEeW83YomzJF75w" supplier="_ij9nIKD5EeWAlK9P2ItRIg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_b_ZREKCwEeW83YomzJF75w" name="User satisfaction"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_fB3HEKCxEeW83YomzJF75w" name="Satisfaction tests development"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_uIERMKCxEeW83YomzJF75w" name="Satisfaction tests puntuaction"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_BIJ28KCyEeW83YomzJF75w" name="" client="_b_ZREKCwEeW83YomzJF75w" supplier="_fB3HEKCxEeW83YomzJF75w"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_DpCfUKCyEeW83YomzJF75w" name="" client="_uIERMKCxEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1bTdYKD1EeWAlK9P2ItRIg" name="Accessible availability information"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2BHqwKD2EeWAlK9P2ItRIg" name="Accessible Interface"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ed9F8KD3EeWAlK9P2ItRIg" name="User perception"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Qa_FAKD4EeWAlK9P2ItRIg" name="Availability information"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_tfdg0KD4EeWAlK9P2ItRIg" name="" client="_1bTdYKD1EeWAlK9P2ItRIg" supplier="_Qa_FAKD4EeWAlK9P2ItRIg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_yac0IKD4EeWAlK9P2ItRIg" name="User state"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_MAXeYKD5EeWAlK9P2ItRIg" name="" client="_ed9F8KD3EeWAlK9P2ItRIg" supplier="_yac0IKD4EeWAlK9P2ItRIg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ij9nIKD5EeWAlK9P2ItRIg" name="Design adapted to speed of connection"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_wWU_4KCuEeW83YomzJF75w" name="3. Performance Requirements">
         <ownedComment xmi:type="uml:Comment" xmi:id="_QxPEoKCyEeW83YomzJF75w">
@@ -225,4 +237,17 @@ c) Performance requirements for the operational phases and modes. This means tha
   <ModelElements:Rationale xmi:id="_l_CCoKCzEeW83YomzJF75w" base_Comment="_l-4RoKCzEeW83YomzJF75w"/>
   <Requirements:DeriveReqt xmi:id="_wxwBgKC3EeW83YomzJF75w" base_Abstraction="_wxuMUaC3EeW83YomzJF75w"/>
   <ModelElements:Rationale xmi:id="_2U9ycKC3EeW83YomzJF75w" base_Comment="_2U0BcKC3EeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_1cmd4KD1EeWAlK9P2ItRIg" text="The user shall be able to know whether the system is available or not at every moment." id="UR2" base_Class="_1bTdYKD1EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_g1HAAKD2EeWAlK9P2ItRIg" base_Abstraction="_gzgdgKD2EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_2CBCoKD2EeWAlK9P2ItRIg" text="The interface of the mobile application shall be clear, simple, understandable and balanced." id="UR4" base_Class="_2BHqwKD2EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_U5iwcKD3EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_XJARoKD3EeWAlK9P2ItRIg" base_Abstraction="_XH1M8KD3EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_eevJEKD3EeWAlK9P2ItRIg" text="The mobile application shall be able to know the state of the user from time to time" id="UR3" base_Class="_ed9F8KD3EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_6HqM4KD3EeWAlK9P2ItRIg" base_Abstraction="_6GfvQKD3EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_QbvS8KD4EeWAlK9P2ItRIg" text="The mobile application shall contain the information of availability at every moment." id="UR2.1" base_Class="_Qa_FAKD4EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_tgk7IKD4EeWAlK9P2ItRIg" base_Abstraction="_tfdg0KD4EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_ybO3QKD4EeWAlK9P2ItRIg" text="The mobile application shall communicate with the user from time to time to know his state." id="UR3.1" base_Class="_yac0IKD4EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_MCGjwKD5EeWAlK9P2ItRIg" base_Abstraction="_MAXeYKD5EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_ik8ekKD5EeWAlK9P2ItRIg" text="The design of the mobile application shall agree with the connection speed of the system." id="UR5" base_Class="_ij9nIKD5EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_9vkc0KD5EeWAlK9P2ItRIg" base_Abstraction="_9tuCsKD5EeWAlK9P2ItRIg"/>
 </xmi:XMI>
