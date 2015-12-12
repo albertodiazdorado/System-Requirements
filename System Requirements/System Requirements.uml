@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ModelElements="http://www.eclipse.org/papyrus/0.7.0/SysML/ModelElements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/ModelElements http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ModelElements="http://www.eclipse.org/papyrus/0.7.0/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/ModelElements http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
   <uml:Model xmi:id="_G9B74KA_EeW7BLzk3SvFLg" name="RootElement">
     <ownedComment xmi:type="uml:Comment" xmi:id="_XMTK8KCvEeW83YomzJF75w">
       <body>Division and organization of the System Requirements has been done according to the International Standard ISO/IEC/IEEE 29148</body>
@@ -14,7 +14,22 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_Hgh1oKCvEeW83YomzJF75w" name="10. System Security"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_qyJloKCuEeW83YomzJF75w" name="1. Functional Requirements"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_txWhsKCuEeW83YomzJF75w" name="2. Usability Requirements">
-        <packagedElement xmi:type="uml:Package" xmi:id="_EmOLMKCwEeW83YomzJF75w" name="2. Usability Requirements Specification"/>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dm1wAKCwEeW83YomzJF75w" annotatedElement="_EmOLMKCwEeW83YomzJF75w">
+          <body>USABILITY REQUIREMENTS: Define quality in use requirements. Usability requirements and objectives for the system must include measurable effectiveness, efficiency, and satisfaction criteria in specific contexts of use. A quality in use measurable plan should be conceived and explained in this section, including how this plan is going to be implemented.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_MslY4KCxEeW83YomzJF75w">
+          <body>USABILITY REQUIREMENTS&#xD;
+Verision Dic15-xx, developed and written down by yyyy&#xD;
+</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Package" xmi:id="_EmOLMKCwEeW83YomzJF75w" name="2. Usability Requirements Specification">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_-PiEAKCxEeW83YomzJF75w" name="" client="_EmOLMKCwEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_b_ZREKCwEeW83YomzJF75w" name="User satisfaction"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fB3HEKCxEeW83YomzJF75w" name="Satisfaction tests development"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uIERMKCxEeW83YomzJF75w" name="Satisfaction tests puntuaction"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_BIJ28KCyEeW83YomzJF75w" name="" client="_b_ZREKCwEeW83YomzJF75w" supplier="_fB3HEKCxEeW83YomzJF75w"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_DpCfUKCyEeW83YomzJF75w" name="" client="_uIERMKCxEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_wWU_4KCuEeW83YomzJF75w" name="3. Performance Requirements"/>
     </packagedElement>
@@ -86,4 +101,14 @@
     </profileApplication>
   </uml:Model>
   <ModelElements:Rationale xmi:id="_XMzhQKCvEeW83YomzJF75w" base_Comment="_XMTK8KCvEeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_b_7ckKCwEeW83YomzJF75w" text="The user shall be happy with the service provided, which will be evaluated with a global puntuation from 0 to 10, being 10 the best mark.&#xD;&#xA;Traced to: Requirements U1.2 &quot;Ease of Use&quot; and U1.3 &quot;Usefulness&quot; under User Requirements->Students Requirements" id="UR1.1" base_Class="_b_ZREKCwEeW83YomzJF75w"/>
+  <ModelElements:Rationale xmi:id="_dnB9QKCwEeW83YomzJF75w" base_Comment="_dm1wAKCwEeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_fB4VMKCxEeW83YomzJF75w" text="Test to evaluate the satisfaction of the users shall be developed and handed out to users after providing the guidance service" id="UR1.1.1" base_Class="_fB3HEKCxEeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_uIFfUKCxEeW83YomzJF75w" text="An average punctuation above 5/10 points in the satisfaction tests shall be obtained to state that the system appropriately meets the needs of the users." id="UR1.1.2" base_Class="_uIERMKCxEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_-QJIAKCxEeW83YomzJF75w" base_Abstraction="_-PiEAKCxEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="__H098KCxEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="__0JRYKCxEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_BI7TAKCyEeW83YomzJF75w" base_Abstraction="_BIJ28KCyEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_B95zMKCyEeW83YomzJF75w"/>
+  <Requirements:Satisfy xmi:id="_Dp1JgKCyEeW83YomzJF75w" base_Abstraction="_DpCfUKCyEeW83YomzJF75w"/>
 </xmi:XMI>
