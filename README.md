@@ -1,5 +1,6 @@
 # Tutorial System Requirements
 Para hacer los diagramas de requisitos:
+
 0. Seguid el modelo del diagrama "User Requirements", que está completamente terminado
 
 1. El diagrama "System Requirements" sólo tiene "packages" que organizan cada uno de los requisitos.
