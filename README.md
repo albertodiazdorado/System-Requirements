@@ -26,3 +26,12 @@ Autor: xd
 9. Tened en cuenta que tengo que hacer captura de pantalla de los diagramas y meterlos en un documento pdf. Intentad que os quepan en lo que sería un A4. Si es imposible, tenemos que crear subdiagramas. En ese caso avisadme y os explico cómo se hace
 
 10. Eso es todo. Disfrutad :)
+
+************************************************************************************************************
+EXTRA: Cómo hacer que el cuadrito de Requirements muestre la id y el texto (requested by Fran):
+
+En SysML rellenáis el nombre, la id y el texto
+En Appearance os vais abajo del todo. En la tabla marcáis el tick de "In Compartment" en la fila de "Requirement". Acto seguido quitáis el tick de todos los items que no sean "text" e "id"
+Por último, quitáis y ponéis el tick de "text" para que "id" salga arriba y "text" salga abajo
+
+C'est tout
