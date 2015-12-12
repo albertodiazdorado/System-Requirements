@@ -74,7 +74,19 @@ Identification: EC1.1&#xD;
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_Mp48IKCvEeW83YomzJF75w" name="9. Information Management"/>
-      <packagedElement xmi:type="uml:Package" xmi:id="_Hgh1oKCvEeW83YomzJF75w" name="10. System Security"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Hgh1oKCvEeW83YomzJF75w" name="10. System Security">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_wxuzYKC3EeW83YomzJF75w">
+          <body>SYSTEM SECURITY&#xD;
+Verision Dic15-xx, developed and written down by yyyy&#xD;
+Identification: SS</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_2U0BcKC3EeW83YomzJF75w">
+          <body>SYSTEM SECURITY: Define the system security requirements related to both the facility that houses the system and operational security requirements of the system itself. First of all it must contemplate access limitations to the system, such as existence of log-on procedures and passwords, and of data protection and recovery methods. This could include the factors that would protect the system from accidental or malicious access, use, modification, destruction, or disclosure. The implementation of this security system must be described in detail. In case the system means a possible hazard to people or other systems or structures if any malfunctioning happens, these system security requirements should include measures to avoid these possible hazards. </body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Package" xmi:id="_wxuMUKC3EeW83YomzJF75w" name="10. System Security">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_wxuMUaC3EeW83YomzJF75w" name="" client="_wxuMUKC3EeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+        </packagedElement>
+      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_qyJloKCuEeW83YomzJF75w" name="1. Functional Requirements"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_txWhsKCuEeW83YomzJF75w" name="2. Usability Requirements">
         <ownedComment xmi:type="uml:Comment" xmi:id="_dm1wAKCwEeW83YomzJF75w" annotatedElement="_EmOLMKCwEeW83YomzJF75w">
@@ -198,4 +210,6 @@ c) Performance requirements for the operational phases and modes. This means tha
   <ModelElements:Rationale xmi:id="_Xyz0gKCzEeW83YomzJF75w" base_Comment="_XyqDgKCzEeW83YomzJF75w"/>
   <Requirements:DeriveReqt xmi:id="_hgDV4KCzEeW83YomzJF75w" base_Abstraction="_hgBgsaCzEeW83YomzJF75w"/>
   <ModelElements:Rationale xmi:id="_l_CCoKCzEeW83YomzJF75w" base_Comment="_l-4RoKCzEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_wxwBgKC3EeW83YomzJF75w" base_Abstraction="_wxuMUaC3EeW83YomzJF75w"/>
+  <ModelElements:Rationale xmi:id="_2U9ycKC3EeW83YomzJF75w" base_Comment="_2U0BcKC3EeW83YomzJF75w"/>
 </xmi:XMI>

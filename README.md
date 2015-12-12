@@ -22,4 +22,6 @@ Autor: xd
 
 8. Vamos a intentar hacer bien los branch, los commits y los merge para que no se pierda el trabajo de nadie.
 
-9. Eso es todo. Disfrutad :)
+9. Tened en cuenta que tengo que hacer captura de pantalla de los diagramas y meterlos en un documento pdf. Intentad que os quepan en lo que sería un A4. Si es imposible, tenemos que crear subdiagramas. En ese caso avisadme y os explico cómo se hace
+
+10. Eso es todo. Disfrutad :)
