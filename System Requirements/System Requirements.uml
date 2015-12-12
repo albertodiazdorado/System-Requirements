@@ -135,7 +135,27 @@ c) Performance requirements for the operational phases and modes. This means tha
         </ownedComment>
         <packagedElement xmi:type="uml:Package" xmi:id="_QxN2gKCyEeW83YomzJF75w" name="3. Performance Requirements Specification">
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_QxN2gaCyEeW83YomzJF75w" name="" client="_QxN2gKCyEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_HP2jcKD-EeWRbOXh85c5xw" name="DeriveReqt1" client="_QxN2gKCyEeW83YomzJF75w" supplier="_jmqaQKD5EeWd3tw13s-D0g"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Br3hAKD_EeWRbOXh85c5xw" name="DeriveReqt2" client="_QxN2gKCyEeW83YomzJF75w" supplier="_mueGcKD-EeWRbOXh85c5xw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_aiCpAKECEeWRbOXh85c5xw" name="DeriveReqt3" client="_QxN2gKCyEeW83YomzJF75w" supplier="_ln4rIKD5EeWd3tw13s-D0g"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jmqaQKD5EeWd3tw13s-D0g" name="Dynamic Behaviour">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_l1qPIKD-EeWRbOXh85c5xw" name="Dynamic Behaviour"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ln4rIKD5EeWd3tw13s-D0g" name="Operational Performances"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_njQysKD5EeWd3tw13s-D0g" name="Maximum Speed"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_njQysaD5EeWd3tw13s-D0g" name="Rotatory Movements"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_njQysqD5EeWd3tw13s-D0g" name="Maximum Range"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_q1IzIaD5EeWd3tw13s-D0g" name="Total Life"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_q1JaMKD5EeWd3tw13s-D0g" name="Environmental Conditions"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_t5t-cKD5EeWd3tw13s-D0g" name="Operational Phases"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_b7CV4KD6EeWRbOXh85c5xw" name="DeriveReqt1.1" client="_jmqaQKD5EeWd3tw13s-D0g" supplier="_njQysqD5EeWd3tw13s-D0g"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_lRZBQKD6EeWRbOXh85c5xw" name="DeriveReqt1.3" client="_jmqaQKD5EeWd3tw13s-D0g" supplier="_njQysaD5EeWd3tw13s-D0g"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_m1ppUKD6EeWRbOXh85c5xw" name="DeriveReqt1.2" client="_jmqaQKD5EeWd3tw13s-D0g" supplier="_njQysKD5EeWd3tw13s-D0g"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mueGcKD-EeWRbOXh85c5xw" name="Endurance Conditions"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_pG9yYKD_EeWRbOXh85c5xw" name="DeriveReqt3.1" client="_ln4rIKD5EeWd3tw13s-D0g" supplier="_t5t-cKD5EeWd3tw13s-D0g"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_4XmD0KD_EeWRbOXh85c5xw" name="DeriveReqt2.1" client="_mueGcKD-EeWRbOXh85c5xw" supplier="_q1JaMKD5EeWd3tw13s-D0g"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_5mCz8KD_EeWRbOXh85c5xw" name="DeriveReqt2.2" client="_mueGcKD-EeWRbOXh85c5xw" supplier="_q1IzIaD5EeWd3tw13s-D0g"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAT5YKA_EeW7BLzk3SvFLg">
@@ -225,4 +245,23 @@ c) Performance requirements for the operational phases and modes. This means tha
   <ModelElements:Rationale xmi:id="_l_CCoKCzEeW83YomzJF75w" base_Comment="_l-4RoKCzEeW83YomzJF75w"/>
   <Requirements:DeriveReqt xmi:id="_wxwBgKC3EeW83YomzJF75w" base_Abstraction="_wxuMUaC3EeW83YomzJF75w"/>
   <ModelElements:Rationale xmi:id="_2U9ycKC3EeW83YomzJF75w" base_Comment="_2U0BcKC3EeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_jmroYKD5EeWd3tw13s-D0g" text="The system shall satisfy all dynamic actions of changes that may occur, in range, speed, movements, ….. &#xA;Traced to: Requirements. U1.3. &quot;Usefulness&quot; Under User Requirements-Students requirement" id="PR1" base_Class="_jmqaQKD5EeWd3tw13s-D0g"/>
+  <Requirements:Requirement xmi:id="_ln6gUKD5EeWd3tw13s-D0g" text="The system shall provide performance results for operational phases and modes. &#xA;Traced to: Requirements. U1.3. &quot;Usefullness&quot; Under User Requirements-Students requirement" id="PR3" base_Class="_ln4rIKD5EeWd3tw13s-D0g"/>
+  <Requirements:Requirement xmi:id="_njTO8KD5EeWd3tw13s-D0g" text="The system shall provide a maximum speed of 40 Km/hour." id="PR1.2" base_Class="_njQysKD5EeWd3tw13s-D0g"/>
+  <Requirements:Requirement xmi:id="_njUdEKD5EeWd3tw13s-D0g" text="The system shall provide a maximum range of 500 meters. " id="PR1.1" base_Class="_njQysqD5EeWd3tw13s-D0g"/>
+  <Requirements:Requirement xmi:id="_njVrMKD5EeWd3tw13s-D0g" text="The system shall provide rotatory movements of 360 degrees." id="PR1.3" base_Class="_njQysaD5EeWd3tw13s-D0g"/>
+  <Requirements:Requirement xmi:id="_q1LPYKD5EeWd3tw13s-D0g" text="The system shall have a minimum total life of 2 years with full capabilities." id="PR2.2" base_Class="_q1IzIaD5EeWd3tw13s-D0g"/>
+  <Requirements:Requirement xmi:id="_q1NEkKD5EeWd3tw13s-D0g" text="The system shall operate with winds lower than 20 m/sec and no rain conditions." id="PR2.1" base_Class="_q1JaMKD5EeWd3tw13s-D0g"/>
+  <Requirements:Requirement xmi:id="_t5wasKD5EeWd3tw13s-D0g" text="The system shall operate in standard mode and failure mode." id="PR3.1" base_Class="_t5t-cKD5EeWd3tw13s-D0g"/>
+  <Requirements:DeriveReqt xmi:id="_b9UN0KD6EeWRbOXh85c5xw" base_Abstraction="_b7CV4KD6EeWRbOXh85c5xw"/>
+  <Requirements:DeriveReqt xmi:id="_lTQCcKD6EeWRbOXh85c5xw" base_Abstraction="_lRZBQKD6EeWRbOXh85c5xw"/>
+  <Requirements:DeriveReqt xmi:id="_m3e1UKD6EeWRbOXh85c5xw" base_Abstraction="_m1ppUKD6EeWRbOXh85c5xw"/>
+  <Requirements:DeriveReqt xmi:id="_HRrvcKD-EeWRbOXh85c5xw" base_Abstraction="_HP2jcKD-EeWRbOXh85c5xw"/>
+  <Requirements:Requirement xmi:id="_l1sEUKD-EeWRbOXh85c5xw" text="The system shall satisfy all dynamic actions of changes that may occur, in range, speed, movements, ….. &#xA;Traced to: Requirements. U1.3. &quot;Usefulness&quot; Students requirement" id="PR1" base_Class="_l1qPIKD-EeWRbOXh85c5xw"/>
+  <Requirements:Requirement xmi:id="_mufUkKD-EeWRbOXh85c5xw" text="The system shall provide endurance capabilities to meet user needs under environmental and total life conditions &#xA;Traced to: Requirements. U1.3. &quot;Usefulness&quot; Under User Requirements-Students requirements" id="PR2" base_Class="_mueGcKD-EeWRbOXh85c5xw"/>
+  <Requirements:DeriveReqt xmi:id="_Bt3sIKD_EeWRbOXh85c5xw" base_Abstraction="_Br3hAKD_EeWRbOXh85c5xw"/>
+  <Requirements:DeriveReqt xmi:id="_pIv7EKD_EeWRbOXh85c5xw" base_Abstraction="_pG9yYKD_EeWRbOXh85c5xw"/>
+  <Requirements:DeriveReqt xmi:id="_4ZdsEKD_EeWRbOXh85c5xw" base_Abstraction="_4XmD0KD_EeWRbOXh85c5xw"/>
+  <Requirements:DeriveReqt xmi:id="_5n9fgKD_EeWRbOXh85c5xw" base_Abstraction="_5mCz8KD_EeWRbOXh85c5xw"/>
+  <Requirements:DeriveReqt xmi:id="_akAX4KECEeWRbOXh85c5xw" base_Abstraction="_aiCpAKECEeWRbOXh85c5xw"/>
 </xmi:XMI>
