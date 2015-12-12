@@ -8,9 +8,9 @@ Para hacer los diagramas de requisitos:
 2. El paquete "Usability Requirements" está empezado, para que tengáis una idea de cómo seguir. Le podéis echar un vistazo.
 
 3. Cada diagrama tiene un RATIONALE explicando el contenido del diagrama, y un COMMENT donde viene:
-+ Nombre del diagrama
-+ Versión (ponedle el día en que lo acabéis donde pone xx)
-+ Autor: xd
+Nombre del diagrama
+Versión (ponedle el día en que lo acabéis donde pone xx)
+Autor: xd
 
 4. Cada requisito debe tener una IDENTIFICACIÓN (id) y un contenido (TEXT).
 
@@ -20,4 +20,6 @@ Para hacer los diagramas de requisitos:
 
 7. Idealmente podéis incluir la trazabilidad del requisito. Ponéis al final del texto "Traced to:" y ponéis los identificadores del requerimiento del "User Requirements" del que proviene. Tenéis un ejemplo en "Usability Requirements". En realidad es lo que hay que hacer pero es mucho trabajo. Sed honrados y dedicadle el tiempo que podáis. Si no lo haceis ahora, habrá que hacerlo en Navidades igualmente.
 
-8. Eso es todo. Disfrutad :)
+8. Vamos a intentar hacer bien los branch, los commits y los merge para que no se pierda el trabajo de nadie.
+
+9. Eso es todo. Disfrutad :)
